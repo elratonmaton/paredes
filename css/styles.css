@@ -1,0 +1,167 @@
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: "icomoon" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-load:before {
+    content: "\e923";
+}
+.icon-check:before {
+    content: "\e91c";
+}
+.icon-file:before {
+    content: "\e900";
+}
+.icon-up:before {
+    content: "\e901";
+}
+.icon-check-inactive:before {
+    content: "\e902";
+}
+.icon-brochure:before {
+    content: "\e903";
+}
+.icon-call:before {
+    content: "\e904";
+}
+.icon-cerrar:before {
+    content: "\e905";
+}
+.icon-check-active:before {
+    content: "\e906";
+}
+.icon-corazon:before {
+    content: "\e907";
+}
+.icon-radio:before {
+    content: "\e908";
+}
+.icon-depas:before {
+    content: "\e909";
+}
+.icon-documento:before {
+    content: "\e90a";
+}
+.icon-fb:before {
+    content: "\e90b";
+}
+.icon-down:before {
+    content: "\e90c";
+}
+.icon-arriba:before {
+    content: "\e90d";
+}
+.icon-derecha:before {
+    content: "\e90e";
+}
+.icon-izquierda:before {
+    content: "\e90f";
+}
+.icon-foto:before {
+    content: "\e910";
+}
+.icon-horario:before {
+    content: "\e911";
+}
+.icon-itg:before {
+    content: "\e912";
+}
+.icon-lk:before {
+    content: "\e913";
+}
+.icon-mapa:before {
+    content: "\e914";
+}
+.icon-h-menu:before {
+    content: "\e915";
+}
+.icon-metraje:before {
+    content: "\e916";
+}
+.icon-pt:before {
+    content: "\e917";
+}
+.icon-play:before {
+    content: "\e918";
+}
+.icon-edificio:before {
+    content: "\e919";
+}
+.icon-wts:before {
+    content: "\e91a";
+}
+.icon-yt:before {
+    content: "\e91b";
+}
+.icon-staff:before {
+    content: "\e60e";
+}
+.icon-arrow-left1:before {
+    content: "\e91d";
+}
+.icon-carrito:before {
+    content: "\e91e";
+}
+.icon-CHECK:before {
+    content: "\e91f";
+}
+.icon-DOWNARROW:before {
+    content: "\e920";
+}
+.icon-download:before {
+    content: "\e921";
+}
+.icon-FILTROOO:before {
+    content: "\e922";
+}
+.icon-search:before {
+    content: "\e612";
+}
+.icon-location:before {
+    content: "\e600";
+}
+.icon-envelope:before {
+    content: "\e61d";
+}
+.icon-close:before {
+    content: "\e605";
+}
+.icon-social-facebook:before {
+    content: "\e603";
+}
+.icon-social-twitter:before {
+    content: "\e604";
+}
+.icon-menu:before {
+    content: "\e602";
+}
+.icon-arrow-right:before {
+    content: "\e606";
+}
+.icon-arrow-left:before {
+    content: "\e607";
+}
+.icon-arrow-down:before {
+    content: "\e608";
+}
+.icon-arrow-up:before {
+    content: "\e609";
+}
+.icon-phone:before {
+    content: "\e60a";
+}
+.icon-youtube:before {
+    content: "\e601";
+}
+.ww_center {
+    max-width: 1200px;
+    width: 94%;
+    margin: auto;
+}

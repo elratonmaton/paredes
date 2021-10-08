@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="projects.html">Proyectos en ejecución</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contacto</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <a class="social-link" href="#">
+            <img src="/images/ig-icon.png" alt="">
+          </a>
+          <a class="social-link" href="#">
+            <img src="/images/fb-icon.png" alt="">
+          </a>
+          <a class="social-link" href="#">
+            <img src="/images/wp-icon.png" alt="">
+          </a>
+          <a class="social-link" href="#">
+            <span class="phone">965 965 119 / (5154)- 439 246</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="slider">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="/images/contact_banner.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="/images/contact_banner.jpg" alt="">
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+
+  <div class="contact-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title">Contáctanos</div>
+          <div class="subtitle">Déjanos tus datos y uno de nuestros asesores se contactará contigo a la brevedad posible.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-5 left-image">
+          <img src="/images/building.jpg" alt="">
+        </div>
+        <div class="col-sm-7">
+          <div class="form-title">COMPRA YA</div>
+          <form action="#" class="form">
+            <div class="row form-row">
+              <div class="col-sm-6 input-cont">
+                <input type="text" class="input" placeholder="Nombre">
+              </div>
+              <div class="col-sm-6 input-cont">
+                <input type="text" class="input" placeholder="Apellido">
+              </div>
+            </div>
+            <div class="row form-row">
+              <div class="col-sm-6 input-cont">
+                <input type="text" class="input" placeholder="Correo electrónico">
+              </div>
+              <div class="col-sm-6 input-cont">
+                <input type="text" class="input" placeholder="Teléfono">
+              </div>
+            </div>
+            <div class="row form-row">
+              <div class="col-sm-6 input-cont">
+                <select class="select">
+                  <option value="" selected>TIPO DE DOCUMENTO</option>
+                  <option value="dni">DNI</option>
+                  <option value="ce">C.E.</option>
+                  <option value="passport">Pasaporte</option>
+                </select>
+              </div>
+              <div class="col-sm-6 input-cont">
+                <input type="text" class="input" placeholder="Número de documento">
+              </div>
+            </div>
+            <div class="row form-row">
+              <div class="col-sm-12 input-cont">
+                <select class="select">
+                  <option value="" selected>SELECCIONA EL HORARIO DE ATENCIÓN</option>
+                </select>
+              </div>
+            </div>
+            <div class="row form-row">
+              <div class="col-sm-12 input-cont">
+                <textarea class="textarea" rows="6" placeholder="Comentario"></textarea>
+              </div>
+            </div>
+
+            <div class="row form-row">
+              <div class="col-sm-12 input-cont">
+                <div class="custom-select">
+                  <input type="checkbox" name="terms" id="terms">
+                  <label for="terms">
+                    <span>He leído las </span>
+                    <a href="#">políticas de privacidad</a>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-12 input-cont">
+                <div class="custom-select">
+                  <input type="checkbox" name="promo" id="promo">
+                  <label for="promo">
+                    <span>Autorizo a que me envien publicidad y/o promociones.</span>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-12 input-cont">
+                <div class="custom-select">
+                  <input type="checkbox" name="share" id="share">
+                  <label for="terms">
+                    <span>Autorizo que mi información sea compartida con el resto de empresas del grupo.</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row form-row">
+              <div class="col-sm-12 input-cont">
+                <div class="button-container">
+                  <button type="submit" class="submit-button">Enviar</button>
+                </div>
+              </div>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="logo">
+            <img src="/images/logo.png" alt="">
+          </div>
+        </div>
+        <div class="col">
+          <div class="menu-footer">
+            <div class="title">Navegación:</div>
+            <div class="links">
+              <a href="/">Inicio</a>
+              <a href="/">Proyectos en venta</a>
+              <a href="/">Contacto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="address">
+            <div class="title">Contáctanos:</div>
+            <div class="address-text">
+              <div class="icon">
+                <img src="/images/wp-ft-icon.png" alt="">
+              </div>
+              <div class="text">965 965 119 / (5154)- 439 246</div>
+            </div>
+            <div class="address-text">
+              <div class="icon">
+                <img src="/images/pin-ft-icon.png" alt="">
+              </div>
+              <div class="text">Calle José Olaya s/n Alata Tiabaya<br>Arequipa - Peru</div>
+            </div>
+            <div class="address-text">
+              <div class="icon">
+                <img src="/images/email-ft-icon.png" alt="">
+              </div>
+              <div class="text">informacion@opcioneshg.com</div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="social-footer">
+            <div class="title">Redes sociales:</div>
+            <div class="social-links">
+              <a href="#" class="social-link">
+                <img src="/images/ig-icon-2.png" alt="">
+              </a>
+              <a href="#" class="social-link">
+                <img src="/images/wp-icon-2.png" alt="">
+              </a>
+              <a href="#" class="social-link">
+                <img src="/images/fb-icon-2.png" alt="">
+              </a>
+            </div>
+            <div class="input">
+              <input type="email" placeholder="Email">
+              <div class="icon">
+                <img src="/images/input-icon.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,223 @@
+.slider {
+  width: 100%;
+  margin-top: 30px;
+}
+.slider .swiper {
+  width: 100%;
+  padding-bottom: 70px;
+}
+.swiper-slide {
+  position: relative;
+}
+.swiper-slide img {
+  width: 100%;
+}
+.swiper-slide .bottom-slide {
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  right: 0;
+  height: auto;
+  background: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  z-index: 99;
+}
+.swiper-slide .bottom-slide .features {
+  display: flex;
+  justify-content: space-evenly;
+}
+.swiper-slide .bottom-slide .features .feature-item {
+  display: flex;
+  align-items: center;
+}
+.swiper-slide .bottom-slide .features .feature-item .icon {
+  margin-right: 1rem;
+}
+.swiper-slide .bottom-slide .features .feature-item .icon img {
+  width: 46px;
+}
+.swiper-slide .bottom-slide .features .feature-item .text p {
+  color: #5B595A;
+  font-family: 'Gilroy-Light';
+  margin-bottom: 0;
+  font-size: 1.15rem;
+  line-height: 1.15rem;
+}
+
+
+.information {
+  position: relative;
+  margin-top: -50px;
+  background: #1E5876;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.information .left-content {
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+.information .left-content .title1 {
+  font-family: 'Gilroy-Bold';
+  color: #ffffff;
+  font-size: 1.9rem;
+  margin-top: -1.9rem;
+}
+.information .left-content .download-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ffffff;
+  text-decoration: none;
+  padding: 1rem 1.25rem;
+  border-radius: 25px;
+}
+.information .left-content .download-button span {
+  color: #265776;
+  font-size: 1.25rem;
+  margin-right: .5em;
+}
+.information .left-content .download-button img {
+  height: 24px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+.information .right-content {
+  padding-right: 30%;
+}
+.information .right-content .features {
+  display: flex;
+  flex-wrap: wrap;
+}
+.information .right-content .features .feature-item {
+  width: 215px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.information .right-content .features .feature-item .icon {
+  width: 40px;
+  text-align: center;
+  margin-right: 1rem;
+  display: block;
+}
+.information .right-content .features .feature-item .icon img {
+  width: 95%;
+}
+.information .right-content .features .feature-item .text p {
+  font-family: 'Gilroy-Medium';
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+
+.gallery {
+  overflow-x: hidden;
+  padding-top: 2rem;
+}
+.gallery .container {
+  border-top: 3px solid #D6F1F3;
+}
+.gallery .title {
+  color: #1E5876;
+  font-family: 'Gilroy-Light';
+  font-size: 2.25rem;
+  letter-spacing: 0;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.b5detalle_subtitle h3 {
+  font-family: 'Gilroy-Bold';
+}
+.b5detalle_text p {
+  font-family: 'Gilroy-Medium';
+}
+.b5detalleSliderPitcher {
+  padding-left: 0;
+}
+
+
+
+.more-information {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.more-information .col-sm-5 {
+  padding-right: 0;
+}
+.more-information .col-sm-7 {
+  padding-left: 0;
+}
+.more-information .container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-top: 3px solid #D6F1F3;
+  border-bottom: 3px solid #D6F1F3;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.more-information .title {
+  background: #E06534;
+  color: #ffffff;
+  font-family: 'Gilroy-Bold';
+  font-size: 2.5rem;
+  padding-left: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  width: 100%;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.more-information .address {
+  color: #4E4C4C;
+  font-family: 'Gilroy-Medium';
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+.more-information .tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.more-information .tags .tag-item {
+  flex: 0 0 40%;
+}
+.more-information .tags .tag-item .label {
+  display: inline-block;
+  border: 1px solid #E06534;
+  color: #4E4C4C;
+  font-family: 'Gilroy-Medium';
+  font-size: 1.25rem;
+  padding: .5rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+}
+.more-information .links {
+  margin-top: 2rem;
+  padding-right: 4rem;
+}
+.more-information .links .link-item {
+  text-decoration: none;
+  color: #4E4C4C;
+  font-family: 'Gilroy-Medium';
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.more-information .links .link-item .text {
+  margin-right: 1rem;
+}
+.more-information .links .link-item .icon img {
+  height: 50px;
+}
+.more-information .right-image img {
+  width: 100%;
+}
