@@ -50,7 +50,7 @@
   padding-bottom: 4rem;
 }
 .projects .card-projects {
-  background: url('images/proyect-bg.jpg');
+  background: url('../images/proyect-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,7 +71,7 @@
   text-align: center;
 }
 .projects .card-terrain {
-  background: url('images/terrenos-bg.jpg');
+  background: url('../images/terrenos-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
