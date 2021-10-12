@@ -221,3 +221,28 @@
 .more-information .right-image img {
   width: 100%;
 }
+
+@media (max-width: 600px) {
+  .swiper-slide .bottom-slide {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .swiper-slide .bottom-slide .features .feature-item .icon img {
+    width: 26px;
+  }
+  .swiper-slide .bottom-slide .features .feature-item .text p {
+    font-size: 12px;
+  }
+  .information .right-content {
+    padding-right: 0;
+  }
+  .information .right-content .features {
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .more-information .title {
+    font-size: 1.5rem;
+  }
+}

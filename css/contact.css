@@ -108,3 +108,18 @@
   padding: .25rem 2rem;
   border-radius: 30px;
 }
+
+@media (max-width: 600px) {
+  .contact-form .form {
+    padding-left: calc(var(--bs-gutter-x) * .5);
+  }
+  .contact-form .form .form-row .col-sm-6:last-child {
+    margin-bottom: 0;
+  }
+  .contact-form .form .form-row .col-sm-6 {
+    margin-bottom: 1rem;
+  }
+  .contact-form .col-sm-5 {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+  }
+}

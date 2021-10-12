@@ -11,11 +11,18 @@
   width: 80%;
   margin: 0 auto;
 }
+.projects .project-card .image-card:hover img {
+  width: 110%;
+}
 .projects .project-card .image-card {
   width: 100%;
+  overflow: hidden;
+  text-align: center;
+  max-height: 289px;
 }
 .projects .project-card .image-card img {
   width: 100%;
+  transition: all .5s ease-in-out;
 }
 .projects .project-card .content {
   width: 100%;
@@ -75,4 +82,14 @@
   font-size: 1.5rem;
   padding: 1rem 2.5rem;
   border-radius: 10px;
+}
+
+
+@media (max-width: 600px) {
+  .projects {
+    margin-top: 40px;
+  }
+  .projects .project-card {
+    margin-top: 2rem;
+  }
 }
